@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PUBG Config Generator</title>
+</head>
+<body>
+    <h2>PUBG Config Generator</h2>
+    <form action="/generate_config" method="post">
+        <label>X-Suit Type:</label>
+        <input type="text" name="xsuit_type" required><br>
+
+        <label>X-Suit Color:</label>
+        <input type="text" name="xsuit_color" required><br>
+
+        <label>Zero Recoil Value:</label>
+        <input type="text" name="zero_recoil" required><br>
+
+        <label>Aim Assist Value:</label>
+        <input type="text" name="aim_assist" required><br>
+
+        <label>Aim Sensitivity:</label>
+        <input type="text" name="aim_sensitivity" required><br>
+
+        <button type="submit">Generate Config</button>
+    </form>
+</body>
+</html>
